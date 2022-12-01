@@ -7,7 +7,7 @@ import { OrderHistory } from '../common/order-history';
   providedIn: 'root',
 })
 export class OrderHistoryService {
-  private orderUrl = 'http://localhost:8080/sportyshoes/orders';
+  private orderUrl = 'http://localhost:8080/kitchenstory/orders';
 
   constructor(private httpClient: HttpClient) {}
 

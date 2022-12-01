@@ -8,8 +8,8 @@ import { State } from '../common/state';
   providedIn: 'root',
 })
 export class MyFormService {
-  private countriesUrl = 'http://localhost:8080/sportyshoes/countries';
-  private statesUrl = 'http://localhost:8080/sportyshoes/states';
+  private countriesUrl = 'http://localhost:8080/kitchenstory/countries';
+  private statesUrl = 'http://localhost:8080/kitchenstory/states';
 
   constructor(private httpClient: HttpClient) {}
 
