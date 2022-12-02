@@ -8,8 +8,8 @@ import { ProductCategory } from '../common/product-category';
   providedIn: 'root',
 })
 export class ProductService {
-  private baseUrl = 'http://localhost:8080/kitchenstory/products';
-  private categoryUrl = 'http://localhost:8080/kitchenstory/product-category';
+  private baseUrl = 'http://localhost:8080/foodbox/products';
+  private categoryUrl = 'http://localhost:8080/foodbox/product-category';
 
   constructor(private httpClient: HttpClient) {}
 
